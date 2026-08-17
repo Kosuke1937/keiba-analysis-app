@@ -10,7 +10,13 @@ st.set_page_config(page_title="競馬分析ラボ", page_icon="🏇", layout="wi
 st.markdown("""
 <style>
 .block-container{max-width:1150px;padding-top:.7rem;padding-bottom:5rem}
-div[data-testid="stMetric"]{background:#f5f6f8;border-radius:14px;padding:.75rem}
+div[data-testid="stMetric"]{
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:14px;
+  padding:.75rem;
+  color:inherit;
+}
 .stButton button{border-radius:12px}
 @media(max-width:700px){
 .block-container{padding-left:.65rem;padding-right:.65rem}
